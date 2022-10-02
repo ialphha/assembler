@@ -18,7 +18,7 @@ class emulator {
 
 public:
 
-	const static int MEMSZ = 100000;	// The size of the memory of the VC3600.
+	const static int MEMSZ = 100000;	// The size of the memory of the  Quack3200.
 	emulator() {
 
 		memset(m_memory, 0, MEMSZ * sizeof(int));
